@@ -24,7 +24,7 @@ public class DNS_Resolver {
 			// Change the two lines below to switch between the small and large
 			// data sets. Use the small data set for initial development and testing.
 			//url2ip = loader.load_addresses("src/data/ips_small.txt");
-			url2ip = loader.load_addresses("src/data/ips.txt");
+			url2ip = loader.load_addresses("src/data/testIPs.txt");
 		} catch (FileFormatException e) {
 			System.err.println("There was a file format exception");
 			e.printStackTrace();
