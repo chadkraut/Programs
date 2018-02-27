@@ -1,11 +1,7 @@
 package dns_resolver;
 
 /**
- * A URL Object is a representation of the URL that we have been giving. 
- * It knows how to compare URLs!
- * 
- * @author redwards
- *
+ * A URL Object is a representation of the URL. 
  */
 public class URL implements Comparable<URL> {
 	String url;
