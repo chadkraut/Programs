@@ -5,15 +5,6 @@ import java.util.Scanner;
 import data_structures.HashI;
 import exceptions.FileFormatException;
 
-/**
- * The DNS_Resolver code will ask you to enter a URL and will give you the IP address
- * associated with the URL. In Eclipse, you can type a machine name into the Console window
- * and it will return the IP address. Press the red square or type quit
- * to stop the application running.
- * 
- * @author CS310
- *
- */
 public class DNS_Resolver {
 
 	public static void main(String[] args) {
