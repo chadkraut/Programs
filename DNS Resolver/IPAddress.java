@@ -4,13 +4,6 @@ package dns_resolver;
  * The IPAddress is using iIPv4 and has dotted-decimal notation, with the network, two subnets, 
  * and host separated by periods. For example, the IP address 130.191.226.146 has 
  * a network of 130, a subnet of 191, the second subnet is 226, and the host address is 146.
- * 
- * Your IPAddress class should accept a string of dotted-decimal IPAddresses in the constructor
- * and separate them into the components. 
- * 
- * @see <a href="https://en.wikipedia.org/wiki/IP_address#IPv4_addresses">Wikipedia IPv4 addresses</a>
- * @author redwards
- *
  */
 
 public class IPAddress {
