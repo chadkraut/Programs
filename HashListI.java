@@ -5,13 +5,7 @@ import java.util.Iterator;
 
 /**
  * The HashList is an abbreviated Linked List that has 
- * only those methods we need for the Hash. We only
- * need a single add method, and we don't need remove
- * first and remove last! This interface describes
- * just those methods we need.
- *
- * @author CS310
- * 
+ * only the methods we need for the Hash.
  */
 public interface HashListI<E> extends Iterable<E> {
 	
