@@ -9,16 +9,13 @@ import exceptions.FileFormatException;
 
 
 /**
- * The LoadInternetAddresses class should take a filename as a string, uses BufferedReader
- * to read the file, split the lines into URLs and IPAddresses, and create the appropriate
- * objects. It should add those objects to a hash, and finally, after reading the whole file
- * it should return the instance of the hash.
+ * The LoadInternetAddresses class takes a filename as a string, uses BufferedReader
+ * to read the file, splits the lines into URLs and IPAddresses, and creates the appropriate
+ * objects. It adds those objects to a hash, and after reading the whole file
+ * it returns the instance of the hash.
  * 
- * If there is an error with the file format, you should throw a new FileFormatException error
- * with an appropriate message.
- *  
- * @author 
- *
+ * If there is an error with the file format, a new FileFormatException error
+ * is thrown.
  */
 public class LoadInternetAddresses {
 	HashI<URL, IPAddress> hash;
