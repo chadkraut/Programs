@@ -7,21 +7,12 @@ import data_structures.LinkedList;
 import data_structures.ListI;
 
 /**
+ *
  * @author Rob Edwards
  * 
  * This code is designed to help you test your Linked List code. It will create a generic linked list,
  * add some elements, and remove some elements. It is designed to work with a linked list program
  * called LinkedList.java that is in the data_structures package. 
- * 
- * You should confirm that this tests all the edge cases for your linked list. Remember the five situations
- * we discussed in class? Does this code test all of them, or should other methods be added?
- * 
- * Does this code test all methods in ListI?
- *
- * Remember, that per the instructions, your LinkedList code should not print any extra information - just 
- * what is printed by this tester.
- * 
- * 
  * 
  */
 public class LinkedListTester {
