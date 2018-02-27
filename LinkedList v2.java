@@ -6,14 +6,7 @@ package data_structures;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-/**
- * The linked list for our hash will only implement the
- * methods in the HashListI interface, a reduced set of
- * methods compared to the linked list from Assignment 1.
- * 
- * @author
- *
- */
+
 public class LinkedList<E> implements HashListI<E> {
 
     @Override
